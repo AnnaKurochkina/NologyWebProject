@@ -22,3 +22,15 @@ nav {
   text-decoration: none;
   font-weight: bold;
 }
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
