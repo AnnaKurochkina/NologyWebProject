@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  background-color: #394166;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+}
