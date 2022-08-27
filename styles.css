@@ -40,3 +40,14 @@ nav {
     width: 100%;
   }
 }
+footer {
+  flex-direction: column;
+  text-align: center;
+  background-color: #faf4d9;
+}
+footer a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+}

@@ -1,4 +1,5 @@
 $color-primary: #394166;
+$color-secondary: #faf4d9;
 $color-white: #fafafa;
 
 * {
@@ -41,6 +42,19 @@ nav {
 @media screen and (max-width: 700px) {
     .column {
         width: 100%;
+    }
+}
+
+footer {
+    flex-direction: column;
+    text-align: center;
+    background-color: $color-secondary;
+
+    a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-decoration: none;
     }
 }
 
