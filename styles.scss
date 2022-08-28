@@ -58,3 +58,12 @@ footer {
     }
 }
 
+.penguin {       
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    p {
+        text-align: left;
+    }
+}

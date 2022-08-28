@@ -51,3 +51,12 @@ footer a {
   padding: 10px;
   text-decoration: none;
 }
+
+.penguin {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.penguin p {
+  text-align: left;
+}
