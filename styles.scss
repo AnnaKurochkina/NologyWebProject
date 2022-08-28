@@ -33,6 +33,17 @@ nav {
     color: $color-white;
     text-decoration: none;
     font-weight: bold;
+    
+    &:hover {
+        text-decoration: underline; 
+     }
+}
+
+#top-button {
+    border: 1px solid $color-primary;
+    background-color: $color-white;
+    color: $color-primary;
+    width: 56px;
 }
 
 .row {
@@ -63,6 +74,10 @@ footer {
         width: 100%;
         padding: 10px;
         text-decoration: none;
+
+        &:hover {
+           text-decoration: underline;
+        }
     }
 }
 
@@ -79,4 +94,11 @@ footer {
 #headline {
     font-family: $font-body;
     color: $color-info;
+}
+
+.center, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }

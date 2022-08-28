@@ -25,6 +25,16 @@ nav {
   text-decoration: none;
   font-weight: bold;
 }
+.button:hover {
+  text-decoration: underline;
+}
+
+#top-button {
+  border: 1px solid #394166;
+  background-color: #fafafa;
+  color: #394166;
+  width: 56px;
+}
 
 .row {
   display: flex;
@@ -54,6 +64,9 @@ footer a {
   padding: 10px;
   text-decoration: none;
 }
+footer a:hover {
+  text-decoration: underline;
+}
 
 .penguin {
   display: flex;
@@ -67,4 +80,11 @@ footer a {
 #headline {
   font-family: "Nunito", sans-serif;
   color: #4DB4E5;
+}
+
+.center, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
