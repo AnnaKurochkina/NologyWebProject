@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito:wght@850&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #394166;
 }
 
 nav {
@@ -59,4 +62,9 @@ footer a {
 }
 .penguin p {
   text-align: left;
+}
+
+#headline {
+  font-family: "Nunito", sans-serif;
+  color: #4DB4E5;
 }
