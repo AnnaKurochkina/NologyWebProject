@@ -6,6 +6,11 @@
   color: #394166;
 }
 
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
 nav {
   height: 100px;
   padding: 25px;
@@ -72,14 +77,25 @@ footer a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
+  margin: 0 15px;
+}
+.penguin img {
+  margin: 0 7px;
 }
 .penguin p {
   text-align: left;
+  margin: 40px 7px;
+}
+.penguin p em {
+  opacity: 0.8;
 }
 
 #headline {
   font-family: "Nunito", sans-serif;
   color: #4DB4E5;
+  margin-left: 46px;
+  margin-right: 46px;
+  margin-top: 0;
 }
 
 .center, footer {
@@ -87,4 +103,13 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+h2, p {
+  margin: 40px 20px;
+}
+
+h3 {
+  color: #4DB4E5;
+  margin-bottom: 30px;
 }

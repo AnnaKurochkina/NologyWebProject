@@ -15,6 +15,11 @@ $color-white: #fafafa;
     color: $color-primary;
 }
 
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
 nav {
     height: 100px;
     padding: 25px;
@@ -85,15 +90,28 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
+    margin: 0 15px;
+    
+    img {
+        margin: 0 7px;
+    }
 
     p {
         text-align: left;
+        margin: 40px 7px;
+
+        em {
+            opacity: 0.8;
+        }
     }
 }
 
 #headline {
     font-family: $font-body;
     color: $color-info;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 0;
 }
 
 .center, footer {
@@ -101,4 +119,13 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+}
+
+h2, p {
+    margin: 40px 20px;
+}
+
+h3 {
+    color: $color-info;
+    margin-bottom: 30px;
 }
